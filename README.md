@@ -24,3 +24,7 @@ After hours of research trying to find a fix, the only fixes I saw involved upda
 Another fix I attempted was to edit the _deprecate.py file to remove the from __future__ import annotations. A solution following these lines was the most common thing I found online. However, when I tried to make edits to the file, I was told that the file would not update in the archive. When I tried to edit the file outside the archive and put it back in, I was told that I had insufficient permissions to make changes in the folder.
 
 Other than the errors I faced, the way I wanted to work through the project was to finish training my model using my dataset. After that, I would export it to ONNX to use in my python project to recognize unhealthy skin.
+
+To clarify, these are just the most recent errors. I have little to no recollection of the errors that I encountered during the class before the extension period I requested.
+
+Honestly, I was a little disappointed in the way this turned out. This being the second Jetson Nano I recieved due to improperly flashed SD cards, I was hoping that any errors I got were due to something that I messed up. However, from looking at the errors I got with future feature annotations not being defined, I do not see how I could have avoided this.
